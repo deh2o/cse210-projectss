@@ -44,7 +44,7 @@ class Scripture
         }
     }
 
-    // Getter to cified number of words in the scripture. It will continue to hide words until the specified number is hidden or the scripture is completely hidden.
+    // Getter to specified number of words in the scripture. It will continue to hide words until the specified number is hidden or the scripture is completely hidden.
     public string GetDisplayText()
     {
         string displayText = _reference.GetDisplayText() + " ";
