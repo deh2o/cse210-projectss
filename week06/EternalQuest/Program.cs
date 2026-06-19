@@ -1,9 +1,17 @@
-using System;
+/*
+EXCEEDING REQUIREMENTS
+
+Added a Level System.
+
+The player gains a new level every 1000 points earned.
+This provides additional gamification beyond the core requirements.
+*/
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
